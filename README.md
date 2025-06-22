@@ -1,16 +1,28 @@
-# my_notes
+# 📝 MyNotes App – Flutter 
 
-A new Flutter project.
+**MyNotes** is a simple and lightweight **notepad-style mobile app** built with **Flutter**. It allows users to create, update, and delete notes locally on their device using the `sqflite` plugin — no internet required.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- ✍️ Create new notes instantly
+- 🗂️ View a list of all saved notes
+- ✏️ Edit and update existing notes
+- ❌ Delete notes with confirmation
+- 💾 Data stored locally using SQLite (`sqflite`)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Tech Stack
+
+| Layer         | Technology             |
+|---------------|-------------------------|
+| Language      | Dart                   |
+| Framework     | Flutter                |
+| Database      | SQFlite (`sqflite` plugin) |
+| UI Toolkit    | Material Design        |
+| State Mgmt.   | `setState` (or Provider, optional) |
+
+---
+
